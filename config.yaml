@@ -1,0 +1,22 @@
+name: hitfood
+worker: wsgi
+version: 1
+
+libraries:
+- name: webpy
+  version: "0.36"
+- name: MySQLdb
+  version: "1.2.3"
+
+handlers:
+- url: /static/
+  static_path: static
+  gzip: on
+- url: /robots.txt
+  static_path: robots.txt
+- url: /favicon.ico
+  static_path: favicon.ico
+- url: /baidu_verify_ptTobbEluZ.html
+  static_path: static/baidu_verify_ptTobbEluZ.html
+- url: /sitemap.txt
+  static_path: static/sitemap.txt
