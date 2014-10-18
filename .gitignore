@@ -58,3 +58,4 @@ target/
 
 
 index.wsgic
+config/secret.py
