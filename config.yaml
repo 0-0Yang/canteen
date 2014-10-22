@@ -1,4 +1,4 @@
-name: foodcenter
+name: hitfood
 worker: wsgi
 version: 1
 
